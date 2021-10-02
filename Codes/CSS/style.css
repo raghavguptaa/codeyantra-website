@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('tp.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+   
+}
+.mid{
+    display:block;
+    width: 43%;
+    margin: 20px auto;
+    }
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 18px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.right{
+    position: absolute;
+    display: inline-block;
+    right:24px;
+    top:30px;
+    
+}
+.btn{
+            
+    margin: 0px 9px;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+h1{
+    font-weight: bold;
+}
+#heading3{
+    color:white;
+}
+p{
+    color: white;
+    font-size: 30px;
+}
+#foot{
+    padding-top: 15%;
+}
